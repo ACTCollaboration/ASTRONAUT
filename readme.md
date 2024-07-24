@@ -1,6 +1,6 @@
-# ACTeroids Database
+# ASTRONAUT
 
-The ACTeroids Database provides users with computer-readable data for specific asteroids in the solar system. This database contains thermal emission flux data collected by the Atacama Cosmology Telescope (ACT) in the frequency bands 90, 150, and 220 GHz across three separate ACT arrays. Additionally, the database contains time (unix) of observations and flux error bars. This data is based on the paper by [John Orlowski-Scherer et al 2024 ApJ 964 138](https://iopscience.iop.org/article/10.3847/1538-4357/ad21fe/meta).
+ASTRONAUT provides users with computer-readable data for specific asteroids in the solar system. This database contains thermal emission flux data collected by the Atacama Cosmology Telescope (ACT) in the frequency bands 90, 150, and 220 GHz across three separate ACT arrays. Additionally, the database contains time (unix) of observations and flux error bars. This data is based on the paper by [John Orlowski-Scherer et al 2024 ApJ 964 138](https://iopscience.iop.org/article/10.3847/1538-4357/ad21fe/meta).
 
 ## Example Queries
 - `s3://cornell-acteroids/Bamberga_lc_pa6_150.fits`
@@ -19,7 +19,7 @@ The general form for making a query to the S3 path is `s3://cornell-acteroids/na
 
 ## Data Output
 
-A valid request to the ACTeroids database will return one of the following:
+A valid request to ASTRONAUT will return one of the following:
 - `FITS` data file for the request
 - an error indicating an invalid request
 

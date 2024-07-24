@@ -33,7 +33,7 @@ The `lookup.md` file describes how to use the `ast_ftns.py` script to look for m
 
 ## Change Log
 
-### Version 1.0 (2024 April)
+### Version 1.0 (2024 July)
 
 - Initial release
 

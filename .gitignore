@@ -1,8 +1,7 @@
 __pycache__/
 Tests/
 .ssh/
-Notebooks/Erminia_lcurve.pdf
-Notebooks/mosaic.ipynb
-Notebooks/Erminia_depth1_1569719648_pa6_f090_map.fits
-Notebooks/Testing.ipynb
-Notebooks/flux.fits
+Notebooks/Testing
+Notebooks/Tutorial/Normalized_Erminia_lcurve.pdf
+
+.pre-commit-config.yaml

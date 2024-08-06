@@ -5,7 +5,7 @@ ASTRONAUT provides users with computer-readable data for specific asteroids in t
 ## Example Queries
 - `s3://cornell-acteroids/Bamberga_lc_pa6_150.fits`
 - `s3://cornell-acteroids/Bamberga_lc_pa5_150.fits`
-- `s3://cornell-acteroids/Vesta_lc_pa4_220.fits` 
+- `s3://cornell-acteroids/Vesta_lc_pa4_220.fits`
 
 ## Query Parameters
 

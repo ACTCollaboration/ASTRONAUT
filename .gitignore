@@ -3,5 +3,5 @@ Tests/
 .ssh/
 Notebooks/Testing
 Notebooks/Tutorial/Normalized_Erminia_lcurve.pdf
-
+Notebooks/Tutorial/.ipynb_checkpoints/
 .pre-commit-config.yaml

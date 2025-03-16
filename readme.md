@@ -1,6 +1,6 @@
 # ASTRONAUT
 
-ASTRONAUT provides users with computer-readable data for specific asteroids in the solar system. This database contains thermal emission flux data collected by the Atacama Cosmology Telescope (ACT) in the frequency bands 90, 150, and 220 GHz across three separate ACT arrays. Additionally, the database contains time (unix) of observations and flux error bars. This data is based on the paper by [John Orlowski-Scherer et al 2024 ApJ 964 138](https://iopscience.iop.org/article/10.3847/1538-4357/ad21fe/meta).
+ASTRONAUT provides users with computer-readable data for minor objects in the solar system. This database contains normalized thermal emission flux data collected by the Atacama Cosmology Telescope (ACT) in the frequency bands 90, 150, and 220 GHz across three separate ACT arrays. Additionally, the database contains time (unix) of observations, flux error bars, and weighting factors used to normalize the flux. These data are based on the paper by [Orlowski-Scherer et al. (2024)](https://iopscience.iop.org/article/10.3847/1538-4357/ad21fe/meta).
 
 ## Example Queries
 - `s3://cornell-acteroids/Bamberga_lc_pa6_150.fits`
@@ -9,13 +9,13 @@ ASTRONAUT provides users with computer-readable data for specific asteroids in t
 
 ## Query Parameters
 
-The general form for making a query to the S3 path is `s3://cornell-acteroids/name_lc_arr_freq.fits`. The following queries are required.
+The general form for making a query to the S3 path is `s3://cornell-acteroids/name_lc_arr_freq.fits`. The following queries are required:
 
-| Parameter | Type      | Description                             |
-| --------- |:---------:|---------:                               |
-| name      | str       | name of asteroid in the database.       |
-| arr       | str       | ACT array.                              |
-| freq      | str       | frequency (GHz) of observation.         |
+| Parameter | Type      | Arguments     | Description
+| --------- |:---------:|:---------:    |---------:
+| name      | str       |               | name of minor object in the database
+| arr       | str       | pa4, pa5, pa6 | ACT array
+| freq      | str       | 090, 150, 220 | frequency (GHz) of observation
 
 ## Data Output
 
@@ -29,11 +29,11 @@ The `lookup.md` file describes how to use the `ast_ftns.py` script to look for m
 
 ## References
 
-[John Orlowski-Scherer et al 2024 ApJ 964 138](https://iopscience.iop.org/article/10.3847/1538-4357/ad21fe/meta)
+[Orlowski-Scherer, J., Venterea, R., Battaglia, N., et al. 2024, ApJ, 964, doi: 10.3847/1538-4357/ad21fe350](https://iopscience.iop.org/article/10.3847/1538-4357/ad21fe/meta)
 
 ## Change Log
 
-### Version 1.0 (2024 July)
+### Version 1.0 (2025 March)
 
 - Initial release
 

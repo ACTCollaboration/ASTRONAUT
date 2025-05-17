@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +173,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+=======
+__pycache__/
+Tests/
+.ssh/
+Notebooks/Testing
+Notebooks/Tutorial/Normalized_Erminia_lcurve.pdf
+Notebooks/Tutorial/.ipynb_checkpoints/
+.pre-commit-config.yaml
+>>>>>>> oldrepo/main

@@ -38,3 +38,13 @@ The `lookup.md` file describes how to use the `ast_ftns.py` script to look for m
 - Initial release
 
 ## Citation
+
+Please cite the following paper if you use `ASTRONAUT` in your work: [Venterea, R. C., Orlowski-Scherer, J., Battaglia, N., et al. 2025](https://arxiv.org/pdf/2508.18300).
+```
+@article{venterea2025atacama,
+  title={The Atacama Cosmology Telescope: Release of A databaSe of millimeTeR ObservatioNs of Asteroids Using acT (ASTRONAUT)},
+  author={Venterea, Ricco C and Orlowski-Scherer, John and Battaglia, Nicholas and Naess, Sigurd and Choi, Steve K and Foster, Allen and Golec, Joseph and Patridge, Bruce and Sif{\'o}n, Crist{\'o}bal},
+  journal={arXiv preprint arXiv:2508.18300},
+  year={2025}
+}
+```

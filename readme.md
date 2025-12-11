@@ -2,6 +2,11 @@
 
 ASTRONAUT provides users with computer-readable data for minor objects in the solar system. This database contains normalized thermal emission flux data collected by the Atacama Cosmology Telescope (ACT) in the frequency bands 90, 150, and 220 GHz across three separate ACT arrays. Additionally, the database contains time (unix) of observations, flux error bars, and weighting factors used to normalize the flux. These data are based on the paper by [Orlowski-Scherer et al. (2024)](https://iopscience.iop.org/article/10.3847/1538-4357/ad21fe/meta).
 
+## Installation
+To begin, `git clone` this repository and (optionally) create a virtual environment. Then from the root directory, 
+
+`pip install -r requirements.txt`
+
 ## Example Queries
 - `s3://cornell-acteroids/Bamberga_lc_pa6_150.fits`
 - `s3://cornell-acteroids/Bamberga_lc_pa5_150.fits`

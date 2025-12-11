@@ -1,4 +1,7 @@
-FILE_PATH = "asteroid_list.txt"
+from pathlib import Path
+
+MODULE_DIR = Path(__file__).resolve().parent
+FILE_PATH = MODULE_DIR / "asteroid_list.txt"
 
 
 def ast_names() -> None:

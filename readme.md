@@ -5,7 +5,9 @@ ASTRONAUT provides users with computer-readable data for minor objects in the so
 ## Installation
 To begin, `git clone` this repository and (optionally) create a virtual environment. Then from the root directory, 
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 ## Example Queries
 - `s3://cornell-acteroids/Bamberga_lc_pa6_150.fits`

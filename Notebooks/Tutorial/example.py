@@ -89,5 +89,5 @@ alpha = np.mean(eph["alpha"])
 weight_redman = redman_delta**-2 * redman_r**(-1/2) * 10**(-0.004*alpha) # Note missing alpha parameter 
 eph = MPC.get_ephemeris('24')
 
-print("Redman1998 93/07 flux: ", redman_flux, "+\-", redman_err)
-print("ACT PA5 flux, scaled to Redman 93/07 Geometry: ", flux_act*weight_redman, "+\-", np.sqrt(var_act)*weight_redman)
+print("Redman1998 93/07 flux: ", redman_flux, "+/-", redman_err)
+print("ACT PA5 flux, scaled to Redman 93/07 Geometry: ", flux_act*weight_redman, "+/-", np.sqrt(var_act)*weight_redman)
